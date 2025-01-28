@@ -1,0 +1,480 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{ 
+  max-width:100%;
+
+  height: 100%;
+}
+
+
+
+.main{
+  width: 100%; 
+}
+.home{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.nav-left{
+  width: 20%;
+  height: 100px;
+}
+
+.nav-left img{
+  height: 100px;
+}
+
+.nav-right{
+  width: 18%;
+  display: flex;
+  height: 100px;
+  padding-top: 45px;
+  gap: 40px;
+}
+
+.nav-right a{
+  text-decoration: none;
+  font-weight: 900;
+  color: #000;
+
+}
+
+.ok{
+  height: 50px;
+  width: 100%;
+  margin-top: 120px;
+  padding-left: 18%;
+  font-size: 30px;
+}
+
+.center{
+  margin-top: 80px;
+  width: 80%;
+  height: 120px;
+  margin-left: 18%;
+  display: flex;
+}
+
+.center h1:hover{
+  color: black;
+}
+ 
+.center h4{
+  padding-bottom: 10px;
+  font-style: 5vw;
+}
+.center h1{
+  padding-top: 8px;
+  font-size: 6vw;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+.cen1,.cen2{
+  width: 80%;
+  margin-left: 18%;
+  padding-top: 20px;
+  margin-top: 130px;
+  height: 120px;
+}
+.cen2{
+  grid-column: 50px;
+  height: 300px;
+}
+
+.cen1 h3{
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.cen1 h3::selection{
+  background-color: #000;
+  color: #fff;
+}
+
+.cen2 h2{
+  font-size:50px;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-weight: 900;
+}
+
+
+.cen2 h1{
+  font-size:55px;
+
+  font-weight: 900;
+}
+
+.cen2 ::selection{
+  background-color: #000;
+  color: #fff;
+}
+
+.fimage{
+  height: 100vh;
+  width: 100%t;
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-left{
+  align-items: start;
+  height: 105vh;
+  width: 40%;
+}
+
+.f-right{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.f-right img{
+  height: 100%;
+  padding: 5px;
+  
+  background-color: #cfbebe;
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  overflow: auto;
+}
+
+.f-right img:hover{
+  border: 5px solid black;
+  height: 110%;
+  width: 110%;
+}
+
+.f-left .ele1{
+  padding-top: 40%;
+  padding-left: 20%;
+  text-transform: capitalize;
+  height: 80%;
+  width: 100%;
+}
+
+.ele1 h1{
+  font-style: bold;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.ele1 h5{
+  font-size: 35px;
+  letter-spacing: -3px;
+  font-weight: 500;
+
+}
+
+.ele1 p{
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 20px;
+
+}
+
+
+.f-left .ele2{
+  padding-top: 40%;
+  padding-left: 20%;
+  text-transform: capitalize;
+  height: 80%;
+  width: 100%;
+}
+
+
+.ele2 h1{
+  font-style: bold;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.ele2 h5{
+  font-size: 35px;
+  letter-spacing: -3px;
+  font-weight: 500;
+
+}
+
+.ele2 p{
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 15px;
+}
+
+
+.f-left .ele3{
+  padding-top: 40%;
+  padding-left: 20%;
+  text-transform: capitalize;
+  height: 80%;
+  width: 100%;
+}
+
+
+.ele3 h1{
+  font-style: bold;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.ele3 h5{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 700;
+
+}
+
+.ele3 p{
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 15px;
+
+}
+
+
+.f-left .ele4{
+  padding-top: 20%;
+  padding-left: 20%;
+  text-transform: capitalize;
+  height: 50%;
+  width: 100%;
+}
+
+
+.ele4 h1{
+  font-style: bold;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.ele4 h5{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: -3px;
+  font-weight: 600;
+
+}
+
+.ele4 p{
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 20px;
+
+}
+
+
+
+.but{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.but button{
+  color: rgb(15, 15, 15);
+  height: 45px;
+  width: 120px;
+  border: 3px solid rgb(188, 186, 186);
+  background-color: rgb(246, 248, 249);
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+button:hover{
+  font-size: 15px;
+  height: 50px;
+  width: 140px;
+  font-weight: 600;
+  border: 5px solid rgb(188, 186, 186);
+  background-color: rgb(3, 3, 3);
+  color: rgb(247, 247, 254);
+}
+
+.new{
+  margin-top: 30px;
+  margin-left: 130px;
+  height: 50vh;
+  width: 50%;
+}
+
+.new h1{
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.new p{
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.view{
+  height: 80vh;
+  margin-top: 30px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 98vw;
+}
+
+.view img{
+  height: 50%;
+  width: 100%;
+  border: 5px solid black;
+  object-fit: cover;
+}
+
+.view img:hover{
+  height: 55%;
+  width: 105%;
+  border: 8px solid black; 
+}
+.view h4:hover{
+  color: blue;
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+.v1{
+  height: 100%;
+  width: 30%;
+}
+.v2{
+  height: 100%;
+  width: 30%;
+}
+.v3{
+  height: 100%;
+  width: 30%;
+}
+
+.view button{
+  margin-left: 33%;
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.view h4{
+  text-transform: capitalize;
+  padding-left: 20px;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.butt{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.butt button{
+  color: rgb(15, 15, 15);
+  height: 45px;
+  width: 120px;
+  border: 3px solid rgb(188, 186, 186);
+  background-color: rgb(246, 248, 249);
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.butt button:hover{
+  font-size: 15px;
+  height: 50px;
+  width: 140px;
+  font-weight: 600;
+  border: 5px solid rgb(188, 186, 186);
+  background-color: rgb(3, 3, 3);
+  color: rgb(247, 247, 254);
+}
+
+.ab{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ab h1{
+  margin-left: 45%;
+}
+
+.end{
+  height: 100vh;
+  width: 99%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.ab{
+  height: 60px;
+  width: 20%;
+}
+
+.end1{
+  height: 80%;
+  width: 20%;
+  
+}
+
+.end img{
+  border: 10px solid black;
+  height: 50%;
+  width: 100%;
+  padding: 15px;
+  object-fit: cover;
+}
+
+.end h2{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.end p{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+
+
+.end2{  
+  height: 80%;
+  width: 20%;
+}
+.end3{
+  height: 80%;
+  width: 20%;
+}
+
+.end4{
+  height: 80%;
+  width: 20%;
+}
